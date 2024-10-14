@@ -1,0 +1,25 @@
+
+[id^="fsearchBoxContainer-"] {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #000;
+    max-height: 500px;
+    border-radius:10px;
+  }
+  [id^="fsearchBoxContainer-"] input, [id^="fcontentContainer-"] {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  [id^="fsearchBoxContainer-"] input {
+    border-radius:inherit;
+    background:#eee;
+    width: 100%;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #000;
+  }
+  .highlight {
+    background: yellow;
+    color: black;
+  }
+  
