@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="fsearchbox/index.css">
     
 </head>
-<body>
-    <div id="wrapper">
+<body><h2>Before</h2>
+    <textarea> What is Lorem Ipsum?
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.</textarea><h2>After </h2>
+    
+    <div id="wrapper"><div id="fsearchBoxContainer-wrapper" style="width: 200px;"><input type="text" id="fsearchBox-wrapper" placeholder="Search..."><div id="fcontentContainer-wrapper">
         What is Lorem Ipsum?
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      </div>
+      </div></div></div>
       <a href="index.html">Go back to Documentation</a>
+
+<script src="fsearchbox/index.js"></script>
+<script>
+    // Initialize the search box
+    FSearchBox.init({ targetEleId: 'wrapper', width:'200px', });
+</script>
 </body>
 <script src="fsearchbox/index.js"></script>
 <script>
